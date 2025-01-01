@@ -57,18 +57,18 @@ in enterprise-level applications requiring robust security, transactional reliab
 
 ## Challenges of REST and SOAP in Automation Testing
 
-| Aspect                | REST                                                                                                  | SOAP                                                                                       |
-|-----------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| **Complexity**        | Simpler to implement but lacks standardized error handling, requiring custom solutions.               | More complex due to rigid protocols, XML schemas, and strict standards.                    |
-| **Tooling**           | Wide range of tools (e.g., Postman, JMeter) but may need additional plugins for advanced use cases.   | Limited to tools like SoapUI, which are specialized but less versatile for modern needs.   |
-| **Security**          | Relies on SSL/TLS and OAuth, which may not cover all enterprise-level needs.                          | Built-in WS-Security provides robust security but adds complexity and overhead.            |
-| **Performance**       | Lightweight JSON format ensures high speed but may sacrifice advanced capabilities.                   | XML-based messaging increases overhead and latency due to larger payloads and parsing.     |
+| Aspect                | REST   Smai                                                                                          | SOAP                                                                                       |
+|-----------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Complexity**        | Simpler to implement but lacks standardized error handling, requiring custom solutions.              | More complex due to rigid protocols, XML schemas, and strict standards.                    |
+| **Tooling**           | Wide range of tools (e.g., Postman, JMeter) but may need additional plugins for advanced use cases.  | Limited to tools like SoapUI, which are specialized but less versatile for modern needs.   |
+| **Security**          | Relies on SSL/TLS and OAuth, which may not cover all enterprise-level needs.                         | Built-in WS-Security provides robust security but adds complexity and overhead.            |
+| **Performance**       | Lightweight JSON format ensures high speed but may sacrifice advanced capabilities.                  | XML-based messaging increases overhead and latency due to larger payloads and parsing.     |
 | **Scalability**       | Stateless nature ensures high scalability but may require workarounds for session-based interactions. | Stateful operations can hinder scalability in large-scale distributed systems.             |
-| **Learning Curve**    | Easier to learn and implement, especially for developers familiar with modern web technologies.       | Steeper learning curve due to strict standards and extensive XML-based configurations.     |
-| **Integration**       | Easy to integrate with modern web and mobile technologies but struggles with legacy systems.          | Better suited for legacy systems but harder to integrate with lightweight or modern tools. |
-| **Error Handling**    | HTTP status codes provide basic error handling but lack detailed standardization.                     | SOAP faults offer detailed and standardized error reporting but are verbose and complex.   |
-| **Testing Ecosystem** | Requires third-party libraries and frameworks for comprehensive testing (e.g., Swagger, Newman).      | SOAP tools are limited but tailored for enterprise testing, such as SoapUI.                |
-| **Decision Factors**  | Highly influenced by the development stack, modern frameworks, and the need for flexibility.          | Often chosen for strict compliance requirements, legacy systems, or high-security needs.   |
+| **Learning Curve**    | Easier to learn and implement, especially for developers familiar with modern web technologies.      | Steeper learning curve due to strict standards and extensive XML-based configurations.     |
+| **Integration**       | Easy to integrate with modern web and mobile technologies but struggles with legacy systems.         | Better suited for legacy systems but harder to integrate with lightweight or modern tools. |
+| **Error Handling**    | HTTP status codes provide basic error handling but lack detailed standardization.                    | SOAP faults offer detailed and standardized error reporting but are verbose and complex.   |
+| **Testing Ecosystem** | Requires third-party libraries and frameworks for comprehensive testing (e.g., Swagger, Newman).     | SOAP tools are limited but tailored for enterprise testing, such as SoapUI.                |
+| **Decision Factors**  | Highly influenced by the development stack, modern frameworks, and the need for flexibility.         | Often chosen for strict compliance requirements, legacy systems, or high-security needs.   |
 
 ## Conclusion
 
@@ -86,15 +86,15 @@ development team.
 
 [SOAP vs REST -Top 15 Key Differences (Testers Edition)](https://talent500.com/blog/how-to-automate-soap-api/)
 
-[GeeksforGeeks: Difference Between REST API and SOAP API]
+[GeeksforGeeks: Difference Between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/)
 
-[AWS: The Difference Between SOAP and REST APIs]
+[AWS: The Difference Between SOAP and REST APIs](https://aws.amazon.com/vi/compare/the-difference-between-soap-rest/)
 
-[Stackify: SOAP vs REST]
+[Stackify: SOAP vs REST](https://stackify.com/soap-vs-rest/)
 
-[Software Cosmos: SOAP vs REST API]
+[Software Cosmos: SOAP vs REST API](https://softwarecosmos.com/soap-vs-rest-api/)
 
-[SoapUI: SOAP vs REST API]
+[SoapUI: SOAP vs REST API](https://www.soapui.org/learn/api/soap-vs-rest-api/)
 
 [SOAP vs REST 101: Understand The Differences](https://www.soapui.org/learn/api/soap-vs-rest-api/?form=MG0AV3)
 
